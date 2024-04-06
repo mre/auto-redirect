@@ -4,4 +4,4 @@ build: lint
 
 .PHONY: lint
 lint:
-	web-ext lint
+	web-ext lint --source-dir src/
