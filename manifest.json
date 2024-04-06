@@ -3,9 +3,9 @@
   "name": "Google 'Browse by Name' Search",
   "description": "Integrates Google's 'Browse by Name' search as a default search engine with suggestions.",
   "version": "1.1",
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
-      "strict_min_version": "55.0"
+      "strict_min_version": "64.0"
     }
   },
   "chrome_settings_overrides": {
@@ -19,4 +19,3 @@
     }
   }
 }
-

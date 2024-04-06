@@ -17,7 +17,9 @@ To build the add-on locally, run
 make build
 ```
 
-This will create a zip archive in the `dist/` directory, which you can then
+You need to have [`web-ext`] installed.
+
+This will create a zip archive in the `web-ext-artifacts/` directory, which you can then
 install. See [this page on the Mozilla
 documentation][docs]
 for more information.
@@ -36,3 +38,4 @@ with the provided URL for making search suggestions work again.
 All credits go to the original author.
 
 [docs]: https://extensionworkshop.com/documentation/publish/package-your-extension/
+[`web-ext`]: https://extensionworkshop.com/documentation/develop/web-ext-command-reference
