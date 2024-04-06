@@ -1,6 +1,6 @@
 .PHONY: build
 build: lint
-	web-ext build --overwrite-dest
+	web-ext build --overwrite-dest --source-dir src/
 
 .PHONY: lint
 lint:
