@@ -1,4 +1,4 @@
-# auto-redirect
+# <img src="src/icon.svg" width="30" height="30"> Auto Redirect
 
 This Firefox add-on aims to make browsing faster by redirecting you to the
 first Google search result if there is a very high probability of it being the
