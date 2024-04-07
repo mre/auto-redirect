@@ -2,10 +2,14 @@
   "manifest_version": 2,
   "name": "Auto Redirect",
   "description": "Automatically forwards to the first Google search result with suggestions.",
-  "version": "1.1",
+  "version": "1.1.1",
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
   "browser_specific_settings": {
     "gecko": {
-      "strict_min_version": "64.0"
+      "strict_min_version": "65.0"
     }
   },
   "chrome_settings_overrides": {
@@ -15,7 +19,8 @@
       "search_url": "https://www.google.com/search?sourceid=navclient&gfns=1&q={searchTerms}",
       "suggest_url": "https://suggestqueries.google.com/complete/search?output=firefox&client=firefox&hl=en&q={searchTerms}&safe=active",
       "favicon_url": "https://www.google.com/favicon.ico",
-      "is_default": true
+      "encoding": "UTF-8",
+      "is_default": false
     }
   }
 }
